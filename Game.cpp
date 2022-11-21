@@ -3,7 +3,7 @@
 int GAME_FIELD_HEIGHT = 25;
 int GAME_FIELD_WIDTH = 40;
 
-Game::Game() : pause(100), neighbors_sum(0)
+Game::Game() : pause(16), neighbors_sum(0)
 {
 	//std::cout << "Game started!" << std::endl;
 	startFieldInitializer();
